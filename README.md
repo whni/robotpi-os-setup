@@ -40,6 +40,7 @@ robotpi
 There are multiple kas configration files under robotpi-os-setup directory:
 1. `robotpi-os-setup/robotpi-os-qemux86-64.yml`
 2. `robotpi-os-setup/robotpi-raspberrypi4-64.yml`
+3. `robotpi-os-setup/robotpi-rb5-64.yml`
 ```
 kas checkout robotpi-os-setup/robotpi-os-xxxx.yml
 ```

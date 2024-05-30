@@ -5,7 +5,7 @@ repos:
   meta-robotpi:
     url: "git@github.com:whni/meta-robotpi.git"
     path: "layers/meta-robotpi"
-    branch: main
+    branch: rb5-bringup
     layers:
       meta-robotpi-common:
       meta-robotpi-ros:
@@ -14,4 +14,4 @@ repos:
 distro: "robotpi"
 
 target:
-  - robotpi-image-turtlebot3-core
+  - robotpi-image-rb5-release
