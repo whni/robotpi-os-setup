@@ -1,13 +1,22 @@
 header:
   version: 14
 
-machine: "raspberrypi4-64"
+machine: "qrb5165-rb5"
 
 repos:
-  raspberrypi:
-    url: "https://github.com/agherzan/meta-raspberrypi.git"
-    path: "layers/meta-raspberrypi"
-
+  qcomrb5:
+    url: "https://git.yoctoproject.org/git/meta-qcom"
+    branch: "kirkstone"
+    commit: "2c055663043e99b783e08226cbf7797dfce0812a"
+    path: "layers/meta-qcomrb5"
+  
+  meta-qcomrb5:
+    url: "git@github.com:whni/meta-robotpi.git"
+    path: "layers/meta-robotpi"
+    branch: main
+    layers:
+      meta-robotpi-qcomrb5:
+     
 local_conf_header:
   rb5_config: |
     # Set the accepted license flags to allow the use of commercial graphics drivers.
