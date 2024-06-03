@@ -25,6 +25,3 @@ repos:
       meta-oe:
       meta-networking:
       meta-python:
-
-  ros:
-    branch: "kirkstone"

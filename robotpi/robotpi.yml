@@ -5,7 +5,7 @@ repos:
   meta-robotpi:
     url: "git@github.com:whni/meta-robotpi.git"
     path: "layers/meta-robotpi"
-    branch: main
+    branch: meta-browser
     layers:
       meta-robotpi-common:
       meta-robotpi-ros:

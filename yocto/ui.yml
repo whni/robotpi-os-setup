@@ -1,0 +1,16 @@
+header:
+  version: 14
+
+repos:
+  meta-browser:
+    url: "https://github.com/OSSystems/meta-browser.git"
+    commit: "c512ef2c1a7dcf0df41253499bc6618b2c816507"
+    path: "layers/meta-browser"
+    layers:
+      meta-chromium:
+
+  meta-robotpi:
+    url: "git@github.com:whni/meta-robotpi.git"
+    path: "layers/meta-robotpi"
+    layers:
+      meta-robotpi-ui:

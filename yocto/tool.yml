@@ -12,5 +12,8 @@ repos:
     commit: "312ff1c39b1bf5d35c0321e873417eb013cea477"
     path: "layers/meta-clang"
 
-  ros:
-    branch: "kirkstone"
+  meta-lts-mixins:
+    url: "git://git.yoctoproject.org/meta-lts-mixins"
+    commit: "1a4a2bb94f115ba240adbe53280f8ef71f5739d0"
+    path: "layers/meta-lts-mixins"
+    branch: "kirkstone/rust-1.70"

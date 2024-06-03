@@ -3,6 +3,7 @@ header:
   includes:
     - yocto/base.yml
     - yocto/tool.yml
+    - yocto/ui.yml
 
 defaults:
   repos:
